@@ -23,7 +23,7 @@ The final model selected was XGBoost Regression, chosen for its ability to handl
 
 * Temporal and categorical interactions
 
-<blockquote style="border-left: 4px solid green;"> The model performed strongly on the test set with an **R² of 0.935** and a **RMSE of 36.56** assault incidents per 100k population.</blockquote>
+<blockquote style="border-left: 4px solid black;"> The model performed strongly on the test set with an <b>R² of 0.935</b> and a <b>RMSE of 36.56</b> assault incidents per 100k population.</blockquote>
 <br></br>
 
 ### Feature Importance Insights
