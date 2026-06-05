@@ -1,6 +1,5 @@
 # U.S. Crime Analysis & Assault Rate Prediction
 <br></br>
-<br></br>
 
 ### Project Overview
 This project analyzes U.S. crime trends from 1979 to 2023 using FBI Summary Reporting System (SRS) data. The primary goal is to predict the aggravated assault rate per 100,000 people across U.S. states by leveraging historical crime patterns, state-level differences, and temporal trends.
@@ -13,8 +12,7 @@ Crime remains a persistent social issue, and understanding how aggravated assaul
 * State Name
 * Year
   
-The challenge includes multicollinearity among crime variables and strong state-level variation
-
+<br></br>
 
 ### Modeling Approach
 The final model selected was XGBoost Regression, chosen for its ability to handle:
@@ -25,7 +23,7 @@ The final model selected was XGBoost Regression, chosen for its ability to handl
 
 * Temporal and categorical interactions
 
-<blockquote style="border-left: 4px solid green;"> The model performed strongly on the test set with an **R² of 0.935** and a **RMSE of 36.56** assault incidents per 100k population.</blockquote>blockquote>
+<blockquote style="border-left: 4px solid green;"> The model performed strongly on the test set with an **R² of 0.935** and a **RMSE of 36.56** assault incidents per 100k population.</blockquote>
 <br></br>
 
 ### Feature Importance Insights
